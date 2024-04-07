@@ -22,20 +22,13 @@ This works everywhere, python works:
 ```bash
 pip install https://github.com/Rusty-Stuff/python-library
 ```
+
 ## Usage
+
 
 #### Login (& Signup)
 
-```python
-from rusty-forms import RustyAPI, RustyAPIConfig, PrivateKey
-
-config = RustyAPIConfig()
-config.generate_keys()
-config.save()
-
-api = RustyAPI(config)
-api.login()
-```
+{% include init_python_library.md %}
 
 #### Create a new form
 
@@ -112,11 +105,11 @@ This library will save your private key in a file. Feel free to supplement a mor
 
 ```python
 from nostr.key import PrivateKey
-from rusty_forms import RustyAPIConfig
+from rusty_forms import NostrAuthApiConfig
 
 # your own method to get the key
 private_key = PrivateKey(key)
-config = RustyAPIConfig(private_key=private_key)
+auth = NostrAuthApiConfig(private_key=private_key)
 ```
 
 ## More information and source code

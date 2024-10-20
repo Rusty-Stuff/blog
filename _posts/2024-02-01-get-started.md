@@ -44,9 +44,11 @@ If you wanted to make a backup, now's a good opportunity. You could store your p
 ![](/assets/images/chrome-setup-4.png)
 
 Now you can open a new tab, and go to the login page at [https://rusty-forms.com/#/login](https://rusty-forms.com/#/login).
-<br/>**Registration**: You **do not** need to register. Trust the process and continue :)
+<br/>**Registration**: You **do not** need to register.
 
 Click on "Get public key from extention".
+
+_If you get an error message, reload the page to make sure the extension is loaded._
 
 ![](/assets/images/chrome-setup-5.png)
 

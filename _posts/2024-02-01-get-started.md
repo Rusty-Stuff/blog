@@ -1,6 +1,7 @@
 ---
+title: "[Forms] Get Started"
 tags: [nostr, register, signup, login]
-categories: [How-To]
+categories: [How-To, Forms]
 ---
 
 TL;DR: Sign-up with a email link or use the browser extension.

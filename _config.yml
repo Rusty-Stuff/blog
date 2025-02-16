@@ -14,15 +14,15 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Rusty Forms
+title: Rusty Tools
 
-tagline: A site about using forms for everything including web enquiries
+tagline: A site about using rusty tools, including forms and shop
 
-description: About Rusty Forms, and how-to use them more creatively
+description: About Rusty Rools, and how-to use them more creatively
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://blog.rusty-forms.com"
+url: "https://blog.rusty-tools.com"
 
 github:
   username: Rusty-Stuff # change to your github username
@@ -33,7 +33,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Rusty Forms
+  name: Franz Geffke
   email: hello@rusty-forms.com # change to your email address
   links:
     # The first element serves as the copyright owner's link

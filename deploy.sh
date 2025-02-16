@@ -5,16 +5,16 @@ guix shell ruby make gcc-toolchain -- sh -c "BUNDLE_PATH=.bundler bundle exec je
 
 # Prompt the user which folder to upload
 FOLDER_NAME="./_site"
-AWS_BUCKET_URL="s3://blog.rusty-forms.com"
+AWS_BUCKET_URL="s3://blog.rusty-tools.com"
 PROFILE_NAME="rusty"
-CLOUDFRONT_ID="E3CNCFXR2Y9JNU"
+CLOUDFRONT_ID="E1AXIUQ0RJQWCV"
 
 echo "Using AWS profile: $PROFILE_NAME"
 echo "Uploading folder: $FOLDER_NAME"
 echo "Destination: $AWS_BUCKET_URL"
 
 # Upload the folder to S3 using AWS CLI
-guix shell awscli -- awsv2 s3 sync $FOLDER_NAME $AWS_BUCKET_URL --profile $PROFILE_NAME
+guix shell awscli -- aws s3 sync $FOLDER_NAME $AWS_BUCKET_URL --profile $PROFILE_NAME
 
 # Invalidate CloudFront (Uncomment if you need this)
-guix shell awscli -- awsv2 cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*" --profile $PROFILE_NAME
+guix shell awscli -- aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*" --profile $PROFILE_NAME

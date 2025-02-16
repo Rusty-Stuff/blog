@@ -4,8 +4,8 @@ Preview
 
 ```bash
 guix shell ruby make gcc-toolchain
-BUNDLE_PATH=~/.bundler bundle install
-BUNDLE_PATH=~/.bundler bundle exec jekyll serve
+BUNDLE_PATH=.bundler bundle install
+BUNDLE_PATH=.bundler bundle exec jekyll serve
 ```
 
 Quick-preview:
@@ -17,5 +17,5 @@ guix shell ruby make gcc-toolchain -- sh -c "BUNDLE_PATH=~/.bundler bundle exec 
 Build
 
 ```bash
-BUNDLE_PATH=~/.bundler bundle exec jekyll build
+BUNDLE_PATH=.bundler bundle exec jekyll build
 ```

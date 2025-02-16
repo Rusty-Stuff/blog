@@ -1,6 +1,7 @@
 ---
+title: "[Forms] New Python Library"
 tags: [python, library]
-categories: [Updates]
+categories: [Updates, Forms]
 ---
 
 TL;DR: The first release of our Python library is now available.

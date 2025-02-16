@@ -1,6 +1,7 @@
 ---
+title: "[Forms] Receive Service Notifications from Bash Scripts"
 tags: [bash, curl, monitoring]
-categories: [How-To]
+categories: [How-To, Forms]
 ---
 
 TL;DR: Utilize Rusty Forms to get alerts from your bash scripts or cron jobs.

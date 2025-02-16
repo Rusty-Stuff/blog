@@ -1,6 +1,7 @@
 ---
+title: "[Forms] New Form Captcha Features"
 tags: [pow, captcha]
-categories: [Release]
+categories: [Release, Forms]
 ---
 
 ## Protect your forms with a captcha

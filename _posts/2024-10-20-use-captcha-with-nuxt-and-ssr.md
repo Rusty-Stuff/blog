@@ -1,6 +1,7 @@
 ---
+title: "[Forms] Use Captcha with Nuxt.js and SSR"
 tags: [pow, captcha, nuxtjs, ssr]
-categories: [How-To]
+categories: [How-To, Forms]
 ---
 
 This is a follow-up to [New Form Captcha Features](/posts/new-form-captcha-features/), to integrate the Altcha captcha on Nuxt.js with SSR (server side rendering) enabled. If you are looking to integrate a captcha with React, Vue or others, please refer to this previous post.

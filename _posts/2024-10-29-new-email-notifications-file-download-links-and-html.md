@@ -1,6 +1,7 @@
 ---
+title: "[Forms] New Email Notifications: File Download Links and HTML"
 tags: [features]
-categories: [Updates]
+categories: [Updates, Forms]
 ---
 
 TL;DR: Email notifications now include temporary download links for attachments and are sent in both plain text and HTML formats.

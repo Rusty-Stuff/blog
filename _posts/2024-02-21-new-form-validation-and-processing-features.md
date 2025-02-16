@@ -1,6 +1,7 @@
 ---
+title: "[Forms] New Form Validation and Processing Features"
 tags: [features]
-categories: [Updates]
+categories: [Updates, Forms]
 ---
 
 TL;DR: Form Specifications enable validation and processing of incoming messages.

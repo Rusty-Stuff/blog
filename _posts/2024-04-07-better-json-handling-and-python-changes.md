@@ -1,6 +1,7 @@
 ---
+title: "[Forms] Better JSON Handling and Python Changes"
 tags: [bash, curl, monitoring]
-categories: [Release]
+categories: [Release, Forms]
 ---
 
 ## Website and API

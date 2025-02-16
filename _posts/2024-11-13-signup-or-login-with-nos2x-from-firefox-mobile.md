@@ -1,6 +1,7 @@
 ---
+title: "[Forms] Signup or Login with nos2x from Firefox Mobile"
 tags: [nostr, register, signup, login]
-categories: [How-To]
+categories: [How-To, Forms]
 ---
 
 TL;DR: Access Rusty Forms with nos2x-fox extension on Firefox Mobile.

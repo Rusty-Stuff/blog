@@ -1,6 +1,7 @@
 ---
+title: "[Forms] New Visual Form Editor Beta"
 tags: [features]
-categories: [Release]
+categories: [Release, Forms]
 ---
 
 ## Validate and transform your form with specs

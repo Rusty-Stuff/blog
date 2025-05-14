@@ -15,7 +15,7 @@ Easier login and new color scheme.
 
 ## Forms
 
-Rusty Forms comes with a log of features, and striking the balance between making it accessible to novices, and powerful for experts can be tricky. Clearer wording, better tooltips, and a improved layout should help with that.
+Rusty Forms comes with a lot of features, and striking the balance between making it accessible to novices, and powerful for experts can be tricky. Clearer wording, better tooltips, and a improved layout should help with that.
 
 ![Rusty Forms - Revised Form Settings](/assets/images/2025-05-15-may-release-form-page.png)
 

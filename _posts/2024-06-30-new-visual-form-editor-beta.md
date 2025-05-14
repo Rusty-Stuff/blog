@@ -55,7 +55,7 @@ discard_additional_fields = false
 
 ... and a preview, of the visual editor:
 
-![](/assets/images/2024-06-30-new-form-visual-editor-beta_preview.png)
+![Rusty Forms - Form Visual Editor](/assets/images/2024-06-30-new-form-visual-editor-beta_preview.png)
 
 ### HTML Preview
 

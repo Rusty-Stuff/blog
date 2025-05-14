@@ -7,7 +7,7 @@ guix shell ruby make gcc-toolchain -- sh -c "BUNDLE_PATH=.bundler bundle exec je
 FOLDER_NAME="./_site"
 AWS_BUCKET_URL="s3://blog.rusty-tools.com"
 PROFILE_NAME="rusty"
-CLOUDFRONT_ID="E1AXIUQ0RJQWCV"
+CLOUDFRONT_ID="E3QUAKZ8YJ97TF"
 
 echo "Using AWS profile: $PROFILE_NAME"
 echo "Uploading folder: $FOLDER_NAME"

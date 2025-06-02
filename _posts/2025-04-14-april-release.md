@@ -1,14 +1,14 @@
 ---
-title: "[General] April Release"
+title: "April Release"
 tags: [features]
-categories: [Release, Shops, Forms]
+categories: [Release, Forms]
 ---
 
 TL;DR: Added login with Google, improved API response times and fixed some bugs.
 
 ## Google Login
 
-Google login is now available on Rusty Forms and Rusty Shops:
+Google login is now available on Formoxy:
 
 - This is for new users only; You cannot switch between (for ex.) Magic Link and Google
 - If your Google Email is verified, Rusty will mark it verified automatically

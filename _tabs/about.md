@@ -4,9 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-A site dedicated to rusty forms and how-to use them.
+A site dedicated to Formoxy Forms.
 
-Signup or Login at [rusty-forms.com](https://rusty-forms.com)
+Signup or Login at [formoxy.com](https://formoxy.com)
 
 <!-- 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.

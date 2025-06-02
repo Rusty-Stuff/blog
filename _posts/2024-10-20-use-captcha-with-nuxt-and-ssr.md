@@ -1,5 +1,5 @@
 ---
-title: "[Forms] Use Captcha with Nuxt.js and SSR"
+title: "Use Captcha with Nuxt.js and SSR"
 tags: [pow, captcha, nuxtjs, ssr]
 categories: [How-To, Forms]
 ---
@@ -85,8 +85,8 @@ export default class ContactForm extends Vue {
   submissionSuccess: boolean = false
 
   // Replace these URLs with your own
-  formUrl = 'https://api.rusty-forms.com/v1/digest/75abad84-7a8d-4075-b18f-cd35954b9df6'
-  challengeUrl = 'https://api.rusty-forms.com/v1/forms/75abad84-7a8d-4075-b18f-cd35954b9df6/challenge/altcha'
+  formUrl = 'https://api.formoxy.com/v1/digest/75abad84-7a8d-4075-b18f-cd35954b9df6'
+  challengeUrl = 'https://api.formoxy.com/v1/forms/75abad84-7a8d-4075-b18f-cd35954b9df6/challenge/altcha'
 
   // Reference to the altcha widget
   altchaWidget = ref<HTMLElement | null>(null);

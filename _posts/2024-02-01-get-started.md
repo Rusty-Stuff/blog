@@ -1,5 +1,5 @@
 ---
-title: "[Forms] Get Started"
+title: "Get Started"
 tags: [nostr, register, signup, login]
 categories: [How-To, Forms]
 ---
@@ -54,7 +54,7 @@ If you wanted to make a backup, now's a good opportunity. You could store your p
 
 ![](/assets/images/chrome-setup-4.png)
 
-Now you can open a new tab, and go to the login page at [https://rusty-forms.com/#/login](https://rusty-forms.com/#/login).
+Now you can open a new tab, and go to the login page at [https://formoxy.com/#/login](https://formoxy.com/#/login).
 <br/>**Registration**: You **do not** need to register.
 
 Click on "Get public key from extension".
@@ -83,7 +83,7 @@ Welcome.
 - Make sure you have a backup
 - You can copy the private key to other devices, to login from there
 
-## Integrate Rusty Forms with your website
+## Integrate Formoxy with your website
 
 Once you're logged-in, and created your first form, you will see examples on how-to integrate it.
 
@@ -92,7 +92,7 @@ Once you're logged-in, and created your first form, you will see examples on how
 Here's what a simple HTML form may look like:
 
 ```html
-<form action="https://api.rusty-forms.com/v1/digest/821f4a10-127c-46c6-bc80-8790d219575a" method="POST" enctype="application/x-www-form-urlencoded">
+<form action="https://api.formoxy.com/v1/digest/821f4a10-127c-46c6-bc80-8790d219575a" method="POST" enctype="application/x-www-form-urlencoded">
   <label for="email">Email:</label><br>
   <input type="email" id="email" name="email" value="your-email@gmail.com"><br>
   <label for="name">Name:</label><br>
@@ -112,7 +112,7 @@ Here's what a simple HTML form may look like:
 
 This is the preview, of the above form:
 
-<form action="https://api.rusty-forms.com/v1/digest/821f4a10-127c-46c6-bc80-8790d219575a" method="POST" enctype="application/x-www-form-urlencoded">
+<form action="https://api.formoxy.com/v1/digest/821f4a10-127c-46c6-bc80-8790d219575a" method="POST" enctype="application/x-www-form-urlencoded">
   <label for="email">Email:</label><br>
   <input type="email" id="email" name="email" value="your-email@gmail.com"><br>
   <label for="name">Name:</label><br>

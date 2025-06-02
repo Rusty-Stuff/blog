@@ -1,5 +1,5 @@
 ---
-title: "[Forms] New Form Validation and Processing Features"
+title: "New Form Validation and Processing Features"
 tags: [features]
 categories: [Updates, Forms]
 ---

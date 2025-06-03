@@ -6,10 +6,10 @@ categories: [Updates, Forms]
 
 TL;DR: The first release of our Python library is now available.
 
-Data in isolation isn't very useful, nor valuable - today we're introducing the `v0.0.1` release of the Formoxy python library. This library is designed to help you
+Data in isolation isn't very useful, nor valuable - today we're introducing the `v0.0.1` release of the Formshive python library. This library is designed to help you
 
 - Integrate with other applications
-- Retrieve data from Formoxy
+- Retrieve data from Formshive
 - Automate stuff (create new forms, integrations, ...)
 
 For example, you can use the library, to update the form specifications, whenever you push to a Github repo - cool, right?
@@ -85,7 +85,7 @@ api.update_form(new_form["id"], {
 The forms URL looks like this:
 
 ```python
-f"https://api.formoxy.com/v1/digest/{new_form["id"]}"
+f"https://api.formshive.com/v1/digest/{new_form["id"]}"
 ```
 
 It accepts:

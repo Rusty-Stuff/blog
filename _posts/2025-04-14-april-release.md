@@ -8,7 +8,7 @@ TL;DR: Added login with Google, improved API response times and fixed some bugs.
 
 ## Google Login
 
-Google login is now available on Formoxy:
+Google login is now available on Formshive:
 
 - This is for new users only; You cannot switch between (for ex.) Magic Link and Google
 - If your Google Email is verified, Rusty will mark it verified automatically

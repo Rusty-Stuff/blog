@@ -1,13 +1,13 @@
 #!/usr/bin/env 
 # -S guix shell pnpm node awscli@1 -- bash
 
-guix shell ruby make gcc-toolchain -- sh -c "BUNDLE_PATH=.bundler bundle exec jekyll build" || exit 1
+guix shell ruby make gcc-toolchain -- sh -c "BUNDLE_PATH=.bundle bundle exec jekyll build" || exit 1
 
 # Prompt the user which folder to upload
 FOLDER_NAME="./_site"
-AWS_BUCKET_URL="s3://blog.rusty-tools.com"
+AWS_BUCKET_URL="s3://blog.formshive.com"
 PROFILE_NAME="rusty"
-CLOUDFRONT_ID="E3QUAKZ8YJ97TF"
+CLOUDFRONT_ID="EISPLG4KBV7YQ"
 
 echo "Using AWS profile: $PROFILE_NAME"
 echo "Uploading folder: $FOLDER_NAME"

@@ -6,7 +6,7 @@ categories: [Release, Forms]
 
 ## Validate and transform your form with specs
 
-Formoxy has supported form validation and transformation for quite some time, but so far this feature was only available to users who were comfortable working with TOML (a configuration format). Today I'm excited to announce the beta release of our new form visual editor, which makes it easy to define fields for your forms in a point-and-click interface.
+Formshive has supported form validation and transformation for quite some time, but so far this feature was only available to users who were comfortable working with TOML (a configuration format). Today I'm excited to announce the beta release of our new form visual editor, which makes it easy to define fields for your forms in a point-and-click interface.
 
 Read more about [Form Validation And Processing Features](/posts/new-form-validation-and-processing-features/)
 
@@ -55,7 +55,7 @@ discard_additional_fields = false
 
 ... and a preview, of the visual editor:
 
-![Formoxy - Form Visual Editor](/assets/images/2024-06-30-new-form-visual-editor-beta_preview.png)
+![Formshive - Form Visual Editor](/assets/images/2024-06-30-new-form-visual-editor-beta_preview.png)
 
 ### HTML Preview
 

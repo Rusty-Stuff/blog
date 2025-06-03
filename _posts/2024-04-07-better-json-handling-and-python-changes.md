@@ -6,7 +6,7 @@ categories: [Release, Forms]
 
 ## Website and API
 
-Here's what changed today on [formoxy.com](https://formoxy.com):
+Here's what changed today on [formshive.com](https://formshive.com):
 
 - (1) The form redirect url is now optional
 
@@ -25,13 +25,13 @@ curl -X POST \
   -d "message=Hi, I want to enquire about ...." \
   -d "products[]=Product A" \
   -d "products[]=Product B" \
-  https://formoxy.com/v1/digest/821f4a10-127c-46c6-bc80-8790d219575a -v
+  https://formshive.com/v1/digest/821f4a10-127c-46c6-bc80-8790d219575a -v
 
 ...
 > Content-Type: application/x-www-form-urlencoded
 >
 < HTTP/1.1 302 Found
-< location: https://formoxy.com
+< location: https://formshive.com
 ```
 
 **JSON, no redirect**
@@ -40,7 +40,7 @@ curl -X POST \
 curl -X POST \
   -H "Content-Type: application/json" \
   -d '{"email":"your-email@gmail.com","name":"Mike","message":"Hi, I want to enquire about ....","products":["Product A","Product B"]}' \
-  https://formoxy.com/v1/digest/821f4a10-127c-46c6-bc80-8790d219575a -v
+  https://formshive.com/v1/digest/821f4a10-127c-46c6-bc80-8790d219575a -v
 
 ...
 > Content-Type: application/json

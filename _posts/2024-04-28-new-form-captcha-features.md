@@ -6,7 +6,7 @@ categories: [Release, Forms]
 
 ## Protect your forms with a captcha
 
-There's been a lot of interest for captcha support on Formoxy. So far we didn't consider adding this, because there's no good solutions on the market apart from Google reCaptcha and hCaptcha - both of which are usability and privacy nightmares.
+There's been a lot of interest for captcha support on Formshive. So far we didn't consider adding this, because there's no good solutions on the market apart from Google reCaptcha and hCaptcha - both of which are usability and privacy nightmares.
 
 A few days ago I came across Altcha, a open source captcha solution that relies on proof of work. This means, there's no need to track users, or force them to solve annoying puzzles - instead, we have their computer solve a simple math problem. Like other solutions, this is not bullet proof, but it's effective and cheaper than a spam check.
 
@@ -25,7 +25,7 @@ To activate the captcha for your form, you need to do 3 things:
 3. Embed the captcha on your website
 
 ```html
-<form action="https://api.formoxy.com/v1/digest/75abad84-7a8d-4075-b18f-cd35954b9df6" method="POST">
+<form action="https://api.formshive.com/v1/digest/75abad84-7a8d-4075-b18f-cd35954b9df6" method="POST">
   <label for="email">Email:</label><br>
   <input type="email" id="email" name="email" value="your-email@gmail.com"><br>
   <label for="name">Name:</label><br>
@@ -35,7 +35,7 @@ To activate the captcha for your form, you need to do 3 things:
 
   <!-- Add the captcha widget anywhere between the form tags -->
   <altcha-widget
-    challengeurl=https://api.formoxy.com/v1/forms/75abad84-7a8d-4075-b18f-cd35954b9df6/challenge/altcha
+    challengeurl=https://api.formshive.com/v1/forms/75abad84-7a8d-4075-b18f-cd35954b9df6/challenge/altcha
     hidefooter
     hidelogo
   ></altcha-widget>
@@ -66,8 +66,8 @@ import {
 import 'altcha'
 
 export function MyForm() {
-  const formUrl = 'https://api.formoxy.com/v1/digest/75abad84-7a8d-4075-b18f-cd35954b9df6'
-  const challengeUrl = 'https://api.formoxy.com/v1/forms/75abad84-7a8d-4075-b18f-cd35954b9df6/challenge/altcha'
+  const formUrl = 'https://api.formshive.com/v1/digest/75abad84-7a8d-4075-b18f-cd35954b9df6'
+  const challengeUrl = 'https://api.formshive.com/v1/forms/75abad84-7a8d-4075-b18f-cd35954b9df6/challenge/altcha'
 
   return (
     <form action={formUrl} method="POST">
@@ -111,9 +111,9 @@ declare namespace JSX {
 
 ## What to expect
 
-If you want to give it a try, checkout the captcha on our homepage [formoxy.com](https://formoxy.com).
+If you want to give it a try, checkout the captcha on our homepage [formshive.com](https://formshive.com).
 
-- This feature is free to use for all Formoxy users
+- This feature is free to use for all Formshive users
 - You will not be charged for messages that do not pass the captcha
 - Messages that do not pass the captcha, are rejected and not stored
 - This feature is fully GDPR compliant
